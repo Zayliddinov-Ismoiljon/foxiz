@@ -1,0 +1,269 @@
+.main{
+  margin-top: 50px;
+}
+
+
+.main__current{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__about{
+  width: 60%;
+  padding-top: 300px;
+  border-radius: 5px;
+  background-image: url(https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/09/t54-1-860x573.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__info{
+  display: flex;
+  flex-direction: column;
+  width: 38%;           
+  background-image: url(https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/08/b19-420x280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  border-radius: 5px;
+  height: 100px;
+}
+
+
+.blur{
+  height: 200px;
+  padding: 20px;
+  background-color: #2a2d2f;
+  filter:blur(0.5px);
+  /* opacity: 0.8; */
+}
+
+.blur-info{
+  height: 120px;
+  padding: 20px;
+  background-color: #1B1E21;
+  filter:blur(0.5px);
+  margin-bottom: 20px;
+  
+}
+
+.main__aboutlink{
+  width: 127px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background-color: #FF28A9;
+  clip-path: polygon(14% 0, 100% 0%, 86% 100%, 0% 100%);
+  padding: 5px 20px;
+}
+
+.main__abouttitle, .main__infotitle{
+  margin: 15px 0px;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+}
+
+.main__infotitle{
+  font-size: 20px;
+}
+
+.main__abouttext{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+
+.main__aboutinfo{
+  position: relative;
+  z-index: 1;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__aboutinfo::after{
+  position: absolute;
+  z-index: 1;
+  content: '';
+  background-image: url(https://cdn-icons-png.flaticon.com/512/6924/6924811.png);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  width: 25px;
+  height: 25px;
+  top: 0px;
+  right: -210%;
+}
+
+.main__aboutinfoimg{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.main__aboutinfospan, .main__aboutinfotime{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+
+
+.main__infoabout, .main__infoabout1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+/* discover section */
+
+.discover, .fashion{
+  background-color: #E8E8E8;
+  padding: 30px 0px;
+  margin-top: 30px;
+}
+
+.fashion{
+  margin-top: 0;
+}
+
+.discover__title, .fashion__title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.discover__list, .fashion__list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discover__item{
+  width: 22%;
+  background-color: #E2E2E2;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.discover__itemimg{
+  width: 100%;
+  height: 190px;
+}
+
+.discover__itemtitle{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+
+.discover__itemspan{
+  position: relative;
+  z-index: 1;
+  color: #BA8F66;
+}
+
+.discover__itemspan::after{
+  position: absolute;
+  content: '';
+  background-image: url(https://cdn-icons-png.flaticon.com/512/992/992651.png);
+  background-size: 30px 30px;
+  width: 30px;
+  height: 30px;
+  top: -30px;
+  right: -280%;
+}
+
+.fashion__itemlink{
+  text-decoration: none;
+  width: 127px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background-color: #FF28A9;
+  clip-path: polygon(14% 0, 100% 0%, 86% 100%, 0% 100%);
+  padding: 5px 10px;
+  text-align: center;
+  display: block;
+  margin-top: -25px;
+}
+
+.fashion__item{
+  word-break: break-all;
+  width: 22%;
+}
+
+.fashion__itemtitle{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.fashion__itemabout{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fashion__itemaboutimg{
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.fashion__itemspan{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.fashion__itemtime{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6699CE;
+}
+
+.fashion__img{
+  width: 100%;
+}
+
+.blog__list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.blog__item{
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.blog__info{
+  width: 38%;
+}
+
+.blog__img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.blog__current{
+  width: 61%;
+}

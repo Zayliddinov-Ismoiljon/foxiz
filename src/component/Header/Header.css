@@ -1,0 +1,156 @@
+.header {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.header__topimg {
+	width: 100%;
+}
+
+.header__link {
+	width: 100%;
+}
+
+.logo {
+	width: 136px;
+	height: 60px;
+}
+
+.header__inner,
+.header__innerabout {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__innerabout {
+	width: 60%;
+}
+
+.header__innerlist {
+	width: 78%;
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.header__inneritemlink {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+	font-family: inherit;
+}
+
+.header__innerinfo {
+	width: 12%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__innerinfosignbtn {
+	width: 85px;
+	font-family: inherit;
+	font-size: 18px;
+	background-color: #ff184e;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.header__innerinfonotificationbtn,
+.header__innerinfosearchbtn {
+	border: none;
+	background-color: transparent;
+	width: 30px;
+	height: 60px;
+	cursor: pointer;
+}
+
+.header__bottom {
+	background-color: #f6f6f6;
+	padding: 5px 0px;
+}
+
+.header__bottomcurrent {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__bottominfo {
+	width: 42%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__bottomspan {
+  position: relative;
+  z-index: 1;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+	padding: 5px 10px;
+	white-space: nowrap;
+	border-radius: 5px;
+	background-color: white;
+  width: 13%;
+}
+
+.header__bottomspan::before{
+  position: absolute;
+  z-index: 1;
+  content: "";
+  background-image: url();
+}
+
+.header__bottomlist{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+
+
+.header__bottomtext{
+  font-family: inherit;
+  font-weight: 600;
+  /* font-size: 16px; */
+}
+
+.header__bottomitemlink{
+  text-decoration: none;
+  color: #272727;
+  font-family: inherit;
+  padding: 4px;
+  background-color: #F0F0F0;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.header__bottomitemlink:hover{
+  background-color: #ff184e;
+  color: white;
+  transition: all 0.3s;
+}
+
+.header__bottomitem:nth-child(1)> .header__bottomitemlink1{
+  background-color: #F6F6F6;
+  font-family: sans-serif;
+  font-size: 14px;
+}
