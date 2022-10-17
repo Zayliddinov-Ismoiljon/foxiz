@@ -267,3 +267,266 @@
 .blog__current{
   width: 61%;
 }
+
+@media only screen and (max-width:425px){
+  #root{
+    width: 100%;
+  }
+
+  .container, .main{
+    width: 100%;
+  }
+
+  .main__current{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__about{
+    width: 100%;
+  }
+
+  .blur{
+    height: 100px;
+  }
+
+  .main__abouttitle{
+    font-size: 16px;
+  }
+
+  .main__abouttext{
+    display: none;
+  }
+
+  .main__aboutinfo{
+    width: 60%;
+  }
+
+  .main__aboutinfo::after{
+    right: -50%;
+  }
+
+  .main__info{
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .main__infoabout{
+    width: 60%;
+  }
+
+  .discover{
+    width: 100%;
+    padding: 0;
+    margin-top: 90px;
+    background-color: #fff;
+  }
+
+  .discover__title, .fashion__title{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .discover__list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .discover__item{
+    width: 42%;
+    margin-bottom: 20px;
+  }
+
+  .discover__itemspan::after{
+    right: -150%;
+  }
+
+  .fashion{
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .fashion__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fashion__item{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .fashion__img{
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .fashion__itemabout{
+    width: 45%;
+  }
+
+  .blog__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog__item{
+    width: 100%;
+  }
+
+  .blog__info{
+    width: 40%;
+  }
+
+  .blog__current{
+    width: 58%;
+  }
+
+  .blog__item .fashion__itemabout{
+    width: 70%;
+  }
+
+  
+}
+
+@media only screen and (max-width: 375px){
+	#root{
+		width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+	}
+
+	.container{
+		width: 100%;
+    padding: 8px;
+	}
+
+	.main__current{
+		width: 100%;
+	}
+
+	.main__about{
+		width: 100%;
+		padding-top: 200px;
+	}
+
+	.main__aboutinfo{
+		width: 70%;
+	}
+
+  .main__aboutinfo::after{
+    right: -40%;
+  }
+
+  .main__infoabout{
+    width: 70%;
+  }
+
+  .discover__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .discover__item{
+    width: 100%;
+  }
+
+  .blog__item .fashion__itemabout{
+    width: 80%;
+  }
+
+  .discover__itemspan::after{
+    right: -400%;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  #root{
+    width: 100%;
+    padding: 0;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  .main__aboutinfo{
+    width: 75%;
+  }
+
+  .main__aboutinfo::after{
+    right: -60px;
+  }
+
+  .main__abouttitle{
+    font-size: 14px;
+  }
+
+  .main__aboutinfospan, .main__aboutinfotime{
+    font-size: 14px;
+  }
+
+  .discover{
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .discover__item{
+    width: 100%;
+  }
+
+  .discover__itemspan::after{
+    right: -300%;
+  }
+
+  .main__infotitle{
+    font-size: 14px;
+  }
+
+  .fashion{
+    width: 100%;
+  }
+
+  .fashion__item{
+    width: 100%;
+  }
+
+  .fashion__itemabout{
+    width: 60%;
+  }
+
+  .blog{
+    width: 100%;
+  }
+
+  .blog__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog__item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog__info{
+    width: 100%;
+  }
+
+  .blog__current{
+    width: 100%;
+  }
+
+  .blog__item .fashion__itemabout{
+    width: 55%;
+  }
+}

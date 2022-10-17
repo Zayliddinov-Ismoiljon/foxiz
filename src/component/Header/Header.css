@@ -6,6 +6,8 @@
 
 .header__topimg {
 	width: 100%;
+	margin: 0 auto;
+	padding: 0;
 }
 
 .header__link {
@@ -153,4 +155,63 @@
   background-color: #F6F6F6;
   font-family: sans-serif;
   font-size: 14px;
+}
+
+@media only screen and (max-width: 425px){
+	#root{
+		width: 100%;
+		padding: 0;
+	}
+
+	.container{
+		width: 100%;
+		padding: 8px;
+	}
+
+	.header{
+		width: 100%;
+	}
+
+	.header__inner, .header__innerabout{
+		width: 100%;
+	}
+
+	.logolink{
+		width: 40%;
+	}
+
+	.logo{
+		width: 100%;
+	}
+
+	.header__innerlist{
+		display: none;
+	}
+
+	.header__innerinfo{
+		width: 60%;
+	}
+
+	.header__bottom{
+		width: 100%;
+	}
+
+	.header__bottomcurrent{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.header__bottominfo, .header__bottomlist{
+		width: 100%;
+	}
+
+	.header__bottomlist{
+		margin-top: 20px;
+	}
+
+	.header__bottomitem:nth-child(1){
+		display: none;
+	}
+
 }

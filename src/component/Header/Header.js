@@ -7,14 +7,14 @@ export default function Header() {
 			<a href='./' className='header__link'>
 				<img
 					className='header__topimg'
-					src='	https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/09/ad-top.jpg'
+					src='https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/09/ad-top.jpg'
 					alt='header top image'
 				/>
 			</a>
 			<div className='container'>
 				<div className='header__inner'>
 					<div className='header__innerabout'>
-						<a href='./'>
+						<a href='./' className='logolink'>
 							<img
 								className='logo'
 								src='	https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/12/logo.svg'
